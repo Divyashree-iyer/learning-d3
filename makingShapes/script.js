@@ -4,7 +4,7 @@ const drawingPad = d3.select('#drawingpad');
 var startCoord;
 var endCoord;
 var shape = 'circle';
-
+var drawing = false;
 
 function changeShape() {
     shape = d3.select('#shape-select').property('value');
