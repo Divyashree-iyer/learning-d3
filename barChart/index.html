@@ -14,6 +14,17 @@
   </head>
   <body>
     <h1>Bar chart</h1>
+    <select onchange="updateChart()" id="updatedValue">
+        <option>
+            HP
+        </option>
+        <option>
+            Attack
+        </option>
+        <option>
+            Defense
+        </option>
+    </select>
     <svg id="barChart"></svg>
   </body>
   <footer>
